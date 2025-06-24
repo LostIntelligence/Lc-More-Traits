@@ -1,4 +1,4 @@
-﻿<Patch>
+<Patch>
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/TraitDef[defName="Abrasive"]/conflictingTraits</xpath>
 		<match  Class="PatchOperationAdd">
