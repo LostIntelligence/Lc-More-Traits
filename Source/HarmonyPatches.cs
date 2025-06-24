@@ -1,4 +1,4 @@
-﻿using ConfigurableMaps.Settings;
+using ConfigurableMaps.Settings;
 using HarmonyLib;
 using System;
 using System.Reflection;
