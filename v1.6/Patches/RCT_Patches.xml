@@ -100,7 +100,7 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/TraitDef[defName = "FastLearner"]/degreeDatas/li[label = "fast learner"]</xpath>
+		<xpath>/Defs/TraitDef[defName = "FastLearner"]/degreeDatas/li</xpath>
 		<value>
 			<commonality>0.30</commonality>
 		</value>
@@ -192,13 +192,13 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/TraitDef[defName = "Nimble"]/degreeDatas/li[label = "nimble"]/statOffset</xpath>
+				<xpath>/Defs/TraitDef[defName = "Nimble"]/degreeDatas/li/statOffset</xpath>
 				<value>
-					<MeleeDoddgeChance>10</MeleeDoddgeChance>
+					<MeleeDodgeChance>10</MeleeDodgeChance>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>/Defs/TraitDef[defName = "Nimble"]/degreeDatas/li[label = "nimble"]</xpath>
+				<xpath>/Defs/TraitDef[defName = "Nimble"]/degreeDatas/li</xpath>
 				<value>
 					<degree>1</degree>
 				</value>
